@@ -70,7 +70,7 @@ DB_PASSWORD=root
 
 
 ### Updating table
-_Before running the project, you need to do the following command for the reason of knowing the updated table data
+_Before running the project, you need to do the following command for the reason of knowing the updated table data_
 
 ```
 php artisan migrate 
@@ -85,7 +85,7 @@ php artisan serve
 
 
 ### Commands you must know
-_The following commands are the commands that you needed to know
+_The following commands are the commands that you needed to know_
 
 ```
 Create Controller
@@ -138,7 +138,7 @@ Usage -->   $this->middleware('auth')
 
 
 ## Step By Step
-__The following is the step by step implementation of the whole project.
+__The following is the step by step implementation of the whole project.__
 
 
 ### ＊＊ Adding "auth"
@@ -150,7 +150,7 @@ $ php artisan make:auth
 
 ### ＊＊ Add a type column on the users table and check if a user has that type via custom middleware
 
-1. __Add the types you want to the User model and a method to check if a user is an admin__ .
+1. __Add the types you want to the User model and a method to check if a user is an admin__
 ```
 /* app/User.php */
 const ADMIN_TYPE = 'admin';
